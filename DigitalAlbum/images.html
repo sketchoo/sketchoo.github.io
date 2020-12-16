@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Album de fotos</title>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <div id="container" style="text-align: center;padding:20%;">
+    <form name="uploadImages" method="post" enctype="multipart/form-data" onsubmit='return setAction(this)'>
+      <input type="file" name="filefield[]" multiple="multiple" style="height:100px">
+      <br>
+      <input type="submit" value="Subir contenido" style="padding:5%">
+    </form>
+  </div>
+</body>
+</html>
